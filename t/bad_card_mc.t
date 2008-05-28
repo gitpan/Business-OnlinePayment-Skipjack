@@ -14,8 +14,8 @@ my $tx = new Business::OnlinePayment("Skipjack");
 #$Business::OnlinePayment::Skipjack::DEBUG = 1;
 #$Business::OnlinePayment::Skipjack::DEBUG = 1;
 
-my $login = $ENV{'sj_html_serial_number'} || '000944785470';
-my $password = $ENV{'sj_devel_serial_number'} || '100594217288';
+my $login = $ENV{'sj_html_serial_number'} || '000843232776';
+my $password = $ENV{'sj_devel_serial_number'} || '100025931874';
 
 $tx->content(
     type           => 'VISA',

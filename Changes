@@ -1,5 +1,10 @@
 Revision history for Perl extension Business::OnlinePayment::SkipJack
 
+0.3     Wed May 28 02:03:19 PDT 2008
+        - update missed bad_card_mc.t to new test account
+        - we don't use B:OP:HTTPS yet, no need to depent on B:OP v3
+        - correct Makefile.PL wrt actual dependency s/Text::CSV/Text::CSV_XS/
+
 0.2	Wed Apr 11 14:11:28 PDT 2007
         - clarify licensing (no original code remains)
         - fix tests
