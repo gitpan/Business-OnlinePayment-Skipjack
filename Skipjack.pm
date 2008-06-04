@@ -22,16 +22,15 @@ package Business::OnlinePayment::Skipjack;
 
 use strict;
 use Carp;
-use Business::OnlinePayment ;#3;
-#use Business::OnlinePayment::HTTPS;
+use Business::OnlinePayment 3;
+use Business::OnlinePayment::HTTPS;
 use Text::CSV_XS;
 use vars qw( @ISA $VERSION $DEBUG );
 
-$VERSION = "0.3";
+$VERSION = "0.4";
 $DEBUG = 0;
 
-#@ISA = qw( Business::OnlinePayment::HTTPS );
-@ISA = qw( Business::OnlinePayment );
+@ISA = qw( Business::OnlinePayment::HTTPS );
 
 my %CC_ERRORS = (
         '-1'    =>      'Invalid length (-1)',
