@@ -27,7 +27,7 @@ use Business::OnlinePayment::HTTPS;
 use Text::CSV_XS;
 use vars qw( @ISA $VERSION $DEBUG );
 
-$VERSION = "0.4";
+$VERSION = "0.5";
 $DEBUG = 0;
 
 @ISA = qw( Business::OnlinePayment::HTTPS );

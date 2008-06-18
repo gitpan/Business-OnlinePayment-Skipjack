@@ -1,5 +1,10 @@
 Revision history for Perl extension Business::OnlinePayment::SkipJack
 
+0.5     Wed Jun 18 14:04:06 PDT 2008
+        - The "I love cpan-testers" release.
+        - We need B:OP v3, thankyouverymuch.
+        - Hopefully the dependency BS is over with.
+
 0.4     Tue Jun  3 16:55:58 PDT 2008
         - The "I'm on crack" release.
         - We *do* use B:OP:HTTPS.  Depend on it.
